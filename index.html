@@ -1,11 +1,13 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>IICT Hackatron</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/open-sans.css">
   <link rel="stylesheet" href="assets/css/animations.css">
-  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="assets/css/master.min.css">
+  <link rel="icon" href="assets/img/favicon.ico"/>
 </head>
 
 <body>
@@ -25,7 +27,8 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home <span class="sr-only">(current)</span></a></li>
+          <li ><a href="pages/leaderboard.html"><span class="glyphicon glyphicon-star"></span> Leaderboard <span class="sr-only">(current)</span></a></li>
         </ul>
       </div>
     </div>
@@ -39,7 +42,7 @@
       <div class="col-md-2">
         <img class="img-responsive" src="assets/img/lbulb.svg" alt="" />
       </div>
-      <div class="col-md-10">
+      <div class="col-md-8">
         <h2>Light bulb!</h2>
         <p>
           The Hackatron project is an ethical web hacker simulation for the students of West Visayas State University - Institute of Information and Communications Technology. It aims to help students in sharpening their code analysis skills
@@ -50,30 +53,36 @@
   </div>
   <div class="jumbotron jumbo-white headless b-top">
     <div class="container">
-      <div class="col-md-3">
-        <img src="assets/img/html.png" alt="" class="img-responsive">
+      <div class="col-sm-2">
+        <img src="assets/img/network.svg" alt="" class="img-responsive">
       </div>
-      <div class="col-md-3">
-        <img src="assets/img/css.png" alt="" class="img-responsive">
-      </div>
-      <div class="col-md-3">
-        <img src="assets/img/js.png" alt="" class="img-responsive">
-      </div>
-      <div class="col-md-3">
-        <img src="assets/img/php.png" alt="" class="img-responsive">
-      </div>
+        <div class="col-sm-2">
+          <img src="assets/img/html.svg" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-2">
+          <img src="assets/img/css.svg" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-2">
+          <img src="assets/img/js.svg" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-2">
+          <img src="assets/img/php.svg" alt="" class="img-responsive">
+        </div>
+        <div class="col-sm-2">
+          <img src="assets/img/mysql.svg" alt="" class="img-responsive">
+        </div>
     </div>
     <div class="container">
       <p>
         &nbsp;
       </p>
-      <p>Advancing to the next level of the game require different web development skills (e.g. Networking, HTML 5, CSS 3, JavaScript, PHP(soon), MySQL(soon).</p>
+      <p>Advancing to the next level of the game require different web development skills (e.g. Networking, HTML 5, CSS 3, JavaScript, PHP(soon) and MySQL(soon).</p>
     </div>
   </div>
   <div class="jumbotron jumbo-dark headless">
     <div class="container">
       <h2>
-        <span class="glyphicon glyphicon-info-sign"></span> Disclaimer</h2>
+        <span class="glyphicon glyphicon-exclamation-sign"></span> Disclaimer</h2>
       <p>
         This project is not endorsing the unethical use of hacking or cracking. This is only for educational purposes.
       </p>
@@ -92,16 +101,25 @@
     </div>
   </div>
   <div class="jumbotron start-challenge jumbo-blue headless">
-    <h1>Are you ready?</h1>
+    <h2>Do you think you&apos;ve got what it takes to be an IICT Hackatron?</h2>
     <p>
-      &nbsp;
+      <span class="glyphicon glyphicon-info-sign"></span> Hackatron challenges are only available offline.
     </p>
-    <p><a class="btn btn-default btn-lg" href="l/50F6C2A707/index.html" role="button">Start the Challenge</a></p>
   </div>
+
+  <!--Only enable these tags in offline mode-->
+
+  <!--<div class="jumbotron start-challenge jumbo-blue headless">-->
+    <!--<h1>Are you ready?</h1>-->
+    <!--<p>-->
+      <!--&nbsp;-->
+    <!--</p>-->
+    <!--<p><a class="btn btn-default btn-lg" href="l/50F6C2A707/index.html" role="button">Start the Challenge</a></p>-->
+  <!--</div>-->
   <div class="jumbotron">
     <div class="container">
-      <p>
-        This project was inspired by <a href="www.hackertest.net">hackertest.net</a> and <a href="http://codetoki.com/">Codetoki</a>
+      <p class="text-center">
+        This project was inspired by <a href="http://www.hackertest.net">hackertest.net</a> and <a href="http://codetoki.com/">Codetoki</a>
       </p>
     </div>
   </div>
