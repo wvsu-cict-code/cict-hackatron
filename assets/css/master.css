@@ -30,6 +30,8 @@ h1, h2, h3, h4 {
 }
 .footer {
   text-align: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 .panel-dark > .panel-heading {
   background-color: #444852;
@@ -73,6 +75,58 @@ p.p-sm {
 .b-top {
   border-top: 1px solid #d7d7d7
 }
+
+.course{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px rgba(38, 38, 38, 0.09);
+    margin: 30px;
+    padding: 20px;
+}
+
+td{
+    font-size: large;
+    padding: 20px;
+}
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+}
+
+.td-text {
+    padding-top: 10px;
+}
+
+.text-norm{
+  font-weight: normal;
+}
+
+.social-button-container {
+  overflow: hidden;
+}
+
+.social-button-group{
+  display: inline;
+  float: none;
+  margin: 0 auto;
+}
+
+.social-button {
+  float: left;
+  min-width: 90px;
+  min-height: 20px;
+  padding-right: 4px;
+}
+
+span.facebook, span.twitter, span.google{
+  height: 20px;
+  margin-right: 20px;
+}
+
+span.twitter{
+  margin-right: 30px;
+}
+
 /*.content::after {
     content: "";
     position: absolute;
