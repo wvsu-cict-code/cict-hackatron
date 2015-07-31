@@ -100,6 +100,33 @@ td{
 .text-norm{
   font-weight: normal;
 }
+
+.social-button-container {
+  overflow: hidden;
+}
+
+.social-button-group{
+  display: inline;
+  float: none;
+  margin: 0 auto;
+}
+
+.social-button {
+  float: left;
+  min-width: 90px;
+  min-height: 20px;
+  padding-right: 4px;
+}
+
+span.facebook, span.twitter, span.google{
+  height: 20px;
+  margin-right: 20px;
+}
+
+span.twitter{
+  margin-right: 30px;
+}
+
 /*.content::after {
     content: "";
     position: absolute;
