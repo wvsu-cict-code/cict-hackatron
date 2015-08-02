@@ -1,0 +1,25 @@
+{
+  "name": "iict-hackatron",
+  "version": "0.0.1",
+  "description": "Web hacker simulation for the iictzens",
+  "main": "index.html",
+  "keywords": [
+    "wvsu",
+    "iict",
+    "web",
+    "hacker",
+    "cracker"
+  ],
+  "authors": [
+    "theintrovertfacultyleague"
+  ],
+  "license": "MIT",
+  "homepage": "http://wvsu-iict-code.github.io/iict-hackatron",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
