@@ -1,2 +1,2 @@
-# iict-hackatron
-Source code for the IICT Hackatron website.
+# cict-hackatron
+Source code for the CICT Hackatron website.

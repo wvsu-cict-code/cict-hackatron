@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
-    banner: 'wvsu-iict-hackatron',
+    banner: 'wvsu-cict-hackatron',
     // Task configuration.
     copy: {
       main: {
